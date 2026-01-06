@@ -310,6 +310,8 @@ main {
     padding: 4rem 2rem;
     display: flex;
     justify-content: center;
+    gap: 2rem;
+    felx-wrap: wrap;
 }
 
 .content-card {
@@ -317,11 +319,13 @@ main {
     border: 3px solid var(--text-dark);
     border-radius: 5px;
     padding: 3rem;
-    max-width: 700px;
+    max-width: 450px;
+    min-width: 300px;
     width: 100%;
     box-shadow: 6px 6px 0 var(--accent-purple), 10px 10px 20px var(--shadow);
     transform: rotate(0.5deg);
     transition: all 0.3s ease;
+    flex: 1;
 }
 
 .content-card:hover {
