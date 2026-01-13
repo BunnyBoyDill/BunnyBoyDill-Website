@@ -311,7 +311,7 @@ main {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    felx-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .content-card {
@@ -458,6 +458,7 @@ main {
     height: auto;
     display: block;
     transition: all 0.3s ease;
+    position: absolute;
 }
 
 .fandom-item:hover img {
