@@ -311,7 +311,7 @@ main {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    felx-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .content-card {
@@ -451,6 +451,11 @@ main {
     box-shadow: 6px 6px 0 var(--accent-purple), 10px 10px 20px var(--shadow);
 }
 
+.fandom-item {
+    position: absolute;
+    transition: all 0.3s ease;
+}
+
 .fandom-item img {
     max-width: 150px;
     max-height: 80px;
@@ -458,7 +463,6 @@ main {
     height: auto;
     display: block;
     transition: all 0.3s ease;
-    position: absolute;
 }
 
 .fandom-item:hover img {
