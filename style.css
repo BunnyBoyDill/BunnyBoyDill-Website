@@ -522,4 +522,36 @@ main {
 }
 
 
+/* Mobile Fandoms Fix */
+@media (max-width: 768px) {
+    .fandoms-container {
+        height: 700px;  /* Taller container for mobile */
+    }
+    
+    /* Reposition logos for mobile - smaller and spread out more */
+    .fandom-item img {
+        max-width: 100px;  /* Smaller logos */
+        max-height: 60px;
+    }
+    
+    /* Override inline positions for mobile */
+    .fandom-item:nth-child(1) { top: 8% !important; left: 10% !important; }
+    .fandom-item:nth-child(2) { top: 8% !important; left: 55% !important; right: auto !important; }
+    .fandom-item:nth-child(3) { top: 25% !important; left: 10% !important; right: auto !important; }
+    .fandom-item:nth-child(4) { top: 25% !important; left: 55% !important; right: auto !important; }
+    .fandom-item:nth-child(5) { top: 45% !important; left: 10% !important; right: auto !important; }
+    .fandom-item:nth-child(6) { top: 45% !important; left: 55% !important; right: auto !important; }
+    .fandom-item:nth-child(7) { top: 65% !important; left: 10% !important; right: auto !important; }
+    .fandom-item:nth-child(8) { top: 65% !important; left: 55% !important; right: auto !important; }
+}
 
+@media (max-width: 480px) {
+    .fandoms-container {
+        height: 800px;  /* Even taller for small phones */
+    }
+    
+    .fandom-item img {
+        max-width: 80px;  /* Even smaller logos */
+        max-height: 50px;
+    }
+}
